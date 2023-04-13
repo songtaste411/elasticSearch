@@ -1,0 +1,11 @@
+mylasticsearch:
+  elasticsearch:
+    hostlist: 192.168.130.130:9200
+spring:
+  elasticsearch:
+    rest:
+      uris: 192.168.130.130:9200
+      connection-timeout: 6000
+      max-connection: 20
+      username: elastic
+      password: elastic
